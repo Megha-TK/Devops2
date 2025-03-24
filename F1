@@ -1,0 +1,4 @@
+FROM YTHON:3.13-SLIM
+WORKDIR /app
+COPY sample.py
+CMD ["python","sample.py"]
