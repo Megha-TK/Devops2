@@ -1,0 +1,5 @@
+FROM openjdk:21
+WORKDIR /app
+COPY sample1.java /app/demo/sample1.java
+RUN javac /app/demo/sample1.java
+CMD ["java","Demo.sample1"]
